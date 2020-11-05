@@ -1,4 +1,4 @@
-const { User } = require('../models/index.js');
+const { User } = require('../Models/index.js');
 
 module.exports = {
     create: (body) => new User(body).save(),
