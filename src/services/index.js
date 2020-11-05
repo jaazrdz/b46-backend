@@ -1,11 +1,5 @@
-const { User } = require('../models/index.js');
+const userService = require('./UserService.js')
 
 module.exports = {
-    create: (body) => new User(body).save(),
-    // READ
-    //get
-    // UPDATE
-   // put
-    // DELETE
-   // delete
-};
+    userService
+}
